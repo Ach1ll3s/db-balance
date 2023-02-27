@@ -1,9 +1,6 @@
-# db-balance
-
-**ER diagram**
-
-<!--
 @startuml er
+
+
 
 Clients   |o..|{ Accounts
 Clients   ||..|{ Contracts
@@ -15,9 +12,7 @@ Accounts  ||..|{ Saldo
 Accounts  ||..|{ BaseSaldo
 Accounts  ||--|{ Documents
 Accounts  ||--|{ Documents
+
+
+
 @enduml
--->
-
-![](er.svg)
-
-**Class diagram**

@@ -5,7 +5,7 @@ Regular **Markdown** here.
 
 <div hidden>
 ```
-@startuml firstDiagram
+@startuml er
 
 Clients   |o..|{ Accounts
 Clients   ||..|{ Contracts
@@ -21,6 +21,6 @@ Accounts  ||--|{ Documents
 ```
 </div>
 
-![](firstDiagram.svg)
+![](er.svg)
 
 Some more markdown.

@@ -14,8 +14,8 @@ Currency  ||..|{ Rate
 Rate      }|..|| TypeRate   
 Accounts  ||..|{ Saldo
 Accounts  ||..|{ BaseSaldo
-Accounts  ||--|{ Documents
-Accounts  ||--|{ Documents
+Accounts  ||--|{ Document
+Accounts  ||--|{ Document
 @enduml
 -->
 

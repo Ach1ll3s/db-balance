@@ -3,8 +3,7 @@
 
 Regular **Markdown** here.
 
-<div hidden>
-```
+<!--
 @startuml er
 
 Clients   |o..|{ Accounts
@@ -18,8 +17,7 @@ Accounts  ||..|{ BaseSaldo
 Accounts  ||--|{ Documents
 Accounts  ||--|{ Documents
 @enduml
-```
-</div>
+-->
 
 ![](er.svg)
 
